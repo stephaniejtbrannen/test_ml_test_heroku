@@ -6,7 +6,7 @@ from keras.preprocessing import image
 from keras import backend as K
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'Uploads'
+app.config['UPLOAD_FOLDER'] = '.'
 
 model = None
 graph = None
